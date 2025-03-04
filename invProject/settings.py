@@ -124,3 +124,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# 1. Crispy Forms
+CRISPY_TEMPLATE_PACK = "bootstrap5"
