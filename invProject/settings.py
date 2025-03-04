@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'invApp',
     'crispy_forms',
     'crispy_bootstrap5',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
