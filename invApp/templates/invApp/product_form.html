@@ -1,1 +1,15 @@
 {% extends "invApp/layout.html" %}
+
+{% block title %}
+Add Product
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="text-center">Add Product</h1>
+    <form method="post" class="jumbotron">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success btn-block">Save Product</button>
+    </form>
+{% endblock %}
